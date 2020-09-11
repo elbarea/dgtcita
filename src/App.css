@@ -107,7 +107,7 @@ body {
 	background-color: #666666 !important;
 }
 .cabLogo{
-	background: url("../images/cab2.jpg") top left no-repeat;
+	background: url("./assets/img/cab2.jpg") top left no-repeat;
 	height: 10em;
 }
 
