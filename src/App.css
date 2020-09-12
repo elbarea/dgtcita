@@ -183,6 +183,112 @@ img{margin-right:0.5em}
 
 }
 
+/*############            CENTRAL            #################*/
+
+
+.separacion10em{
+	width: 100%;
+	height:1em;
+	clear:both;
+}
+
+.separacion7em{
+	width: 100%;
+	height:0.7em;
+	clear:both;
+}
+
+.separacion5em{
+	width: 100%;
+	height:0.5em;
+	clear:both;
+}
+
+.separacion1em{
+	width: 100%;
+	height:1px;
+	clear:both;
+}
+
+.buscIntCab {
+	FLOAT: left; WIDTH: 100%; BACKGROUND-COLOR: #7b91b0
+}
+.buscIntCabTexto {
+	MARGIN-TOP: 0.2em; FLOAT: left; MARGIN-BOTTOM: 0.2em; MARGIN-LEFT: 0.45em
+}
+.letraBlancaBold{
+	font-weight:bold;
+	color:#ffffff;
+	background-color: transparent;
+}
+.buscIntCabTextoHelp {
+  width: auto;
+  margin: auto 0.5em;
+  float: right;
+}
+.buscIntCamposEv2 {
+  BORDER-TOP: #ffffff 0.2em solid;
+  FLOAT: left;
+  WIDTH: 100%;
+  BORDER-BOTTOM: #ffffff 0.3em solid;
+}
+.buscIntCamposEvPub {
+  BACKGROUND: #ced7de no-repeat right 50%;
+}
+.buscIntCamposLinea {
+	FLOAT: left; WIDTH: 100%; HEIGHT: auto
+}
+.cuadroBlanco98por {
+	FLOAT: left;
+	PADDING-left: 1em;
+	margin-top: 1em;
+	margin-left: 1em;
+	HEIGHT: auto;
+	width:98%;
+	border:solid 1px #eeeeee;
+}
+.cuadroBlanco98por div {
+	float:left;
+}
+.sinBorde {
+	border: 0 !important;
+}
+.saltobr {
+	height: 0.2em;
+	display: block;
+	clear: both;
+	width: 100%;
+	float: none !important;
+}
+.cuadroBlanco98porPaso2{padding-bottom: 1.2em;}
+.campoNombre {
+	padding-right: 0.5em; padding-left: 1.5em; float: left; padding-top: 0.9em; height: auto; width:29%;
+}
+.campoNombre label {
+	display:block;
+}
+.buscIntCamposEvProvInput2 {
+	MARGIN-TOP: 0.2em; FONT-SIZE: 1em; COLOR: #000000; 
+}
+.campoApellidos {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 1.5em; FLOAT: left; PADDING-TOP: 0.9em; HEIGHT: auto;width:29%;
+}
+.buscIntCamposGral {
+	FLOAT: left; WIDTH: 100%; HEIGHT: auto; BACKGROUND-COLOR: #ced7de
+}
+.buscIntCamposBuscar {
+	padding: 0.5em 1em 0.2em 0; float: right; width: 80%; height: auto; text-align: right;
+}
+.buscIntCamposBuscar .botonSINimgen, .centradoBotonesFin .botonSINimgen{
+	float: right;
+}
+.botonSINimgen {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 5px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1em; BACKGROUND-IMAGE: url("./assets/img/bot_n.gif"); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 86px !important; CURSOR: pointer !important; COLOR: white; HEIGHT: 21px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px; margin-right: 0.5em;
+	padding-top:2px;
+	float:right;
+	background-repeat: no-repeat;
+}
+
 /*############            FOOTER            #################*/
 .pie {
 	height: 30px;
