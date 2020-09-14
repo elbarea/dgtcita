@@ -1,10 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
-    <div id="contenedor"> 
+    <div id="contenedor" className="whole"> 
       <div id="cabecera">
         <div id="j_id5" className="central central-borde">
           <a
@@ -322,7 +321,7 @@ function App() {
                     </div>
                     <div
                       id="publicacionesForm:j_id2006"
-                      className="cuadroBlanco98por cuadroBlanco98porPaso2"
+                      className="cuadroBlanco98por cuadroBlanco98porPaso2 margin"
                     >
                       <div
                         id="publicacionesForm:j_id2007"
