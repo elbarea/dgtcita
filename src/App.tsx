@@ -1,9 +1,15 @@
 import React from "react";
 import "./App.css";
+import help from "./assets/img/system_help.png";
+import alta from "./assets/img/alta-vehiculo.png";
+import pago from "./assets/img/pagodemultas.png";
+import pago2 from "./assets/img/pagoydevoluciontasas.png";
+import permiso from "./assets/img/permisoxpuntos.png";
+import dot from "./assets/img/g.png"
 
 function App() {
   return (
-    <div id="contenedor" className="whole"> 
+    <div id="contenedor" className="whole">
       <div id="cabecera">
         <div id="j_id5" className="central central-borde">
           <a
@@ -25,7 +31,7 @@ function App() {
                   className="goog-te-gadget-simple header1"
                 >
                   <img
-                    src="./Solicitar Cita Paso2_files/cleardot.gif"
+                    src={dot}
                     className="goog-te-gadget-icon header2"
                     alt=""
                   />
@@ -33,7 +39,6 @@ function App() {
                     <a
                       aria-haspopup="true"
                       className="goog-te-menu-value"
-                      href="javascript:void(0)"
                     >
                       <span>Seleccionar idioma</span>
                       <img
@@ -79,7 +84,7 @@ function App() {
                     target="_blank"
                   >
                     <img
-                      src="./Solicitar Cita Paso2_files/system_help.png"
+                      src={help}
                       alt="Ayuda en ventana nueva"
                       title="Ayuda en ventana nueva"
                     />
@@ -115,7 +120,10 @@ function App() {
                         className="saltobr"
                       ></div>
                     </div>
-                    <div id="publicacionesForm:j_id55" className="cuadroBlanco98por cuadroBlanco98porMain sinBorde">
+                    <div
+                      id="publicacionesForm:j_id55"
+                      className="cuadroBlanco98por cuadroBlanco98porMain sinBorde"
+                    >
                       <strong id="publicacionesForm:j_id56">
                         Datos del interesado
                       </strong>
@@ -371,7 +379,7 @@ function App() {
                     </div>
                   </fieldset>
                 </div>
-                
+
                 <div
                   id="publicacionesForm:j_id2016"
                   className="buscIntCamposGral"
@@ -422,11 +430,145 @@ function App() {
                     className="separacion7em"
                   ></div>
                 </div>
-                <div id="publicacionesForm:j_id2036" className="separacion5em"></div>
+                <div
+                  id="publicacionesForm:j_id2036"
+                  className="separacion5em"
+                ></div>
                 <div id="publicacionesForm:mensajeserror"></div>
                 <input type="hidden" name="javax.faces.ViewState" />
               </form>
               <div id="j_id2038" className="separacion5em"></div>
+            </div>
+            <div id="myCarouselInferior" className="carousel">
+            <a
+                id="anguloIzquierdo"
+                className="left carousel-control"
+                href="https://sedeapl.dgt.gob.es:7443/WEB_NCIT_CONSULTA/solicitarCitaPaso1.faces#myCarouselInferior"
+                data-slide="prev"
+              >
+                <svg
+                  className="svg-inline--fa fa-angle-left fa-w-8"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fa"
+                  data-icon="angle-left"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 256 512"
+                  data-fa-i2svg=""
+                >
+                  <path
+                    fill="currentColor"
+                    d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                  ></path>
+                </svg>
+              </a>
+              <div id="j_id2039:0:j_id2040" className="carousel-inner flex">
+                <div
+                  id="j_id2039:0:j_id2041"
+                  className="col-md-3 col-sm-6 col-xs-12"
+                >
+                  <div id="j_id2039:0:j_id2042" className="small-box">
+                    <div id="j_id2039:0:j_id2043" className="procedure-image">
+                      <img src={alta} alt="Alta de vehículo." />
+                    </div>
+                    <div id="j_id2039:0:j_id2045" className="procedure-link">
+                      <a
+                        href="https://sede.dgt.gob.es/es/vehiculos/altas-bajas-y-rehabilitacion-de-vehiculos/index.shtml"
+                        target="_blank"
+                        title="Acceder a Alta de vehículo."
+                        className="link"
+                      >
+                        Alta de vehículo.
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="j_id2039:1:j_id2041"
+                  className="col-md-3 col-sm-6 col-xs-12"
+                >
+                  <div id="j_id2039:1:j_id2042" className="small-box">
+                    <div id="j_id2039:1:j_id2043" className="procedure-image">
+                      <img src={pago} alt="Pago de multas." />
+                    </div>
+                    <div id="j_id2039:1:j_id2045" className="procedure-link">
+                      <a
+                        href="https://sede.dgt.gob.es/es/multas/paga-tu-multa/index.shtml"
+                        target="_blank"
+                        title="Acceder a Pago de multas."
+                        className="link"
+                      >
+                        Pago de multas.
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="j_id2039:2:j_id2041"
+                  className="col-md-3 col-sm-6 col-xs-12"
+                >
+                  <div id="j_id2039:2:j_id2042" className="small-box">
+                    <div id="j_id2039:2:j_id2043" className="procedure-image">
+                      <img src={pago2} alt="Pago y devolución de tasas." />
+                    </div>
+                    <div id="j_id2039:2:j_id2045" className="procedure-link">
+                      <a
+                        href="https://sede.dgt.gob.es/es/otros-tramites/pago-de-tasas/"
+                        target="_blank"
+                        title="Acceder a Pago y devolución de tasas."
+                        className="link"
+                      >
+                        Pago y devolución de tasas.
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="j_id2039:3:j_id2041"
+                  className="col-md-3 col-sm-6 col-xs-12"
+                >
+                  <div id="j_id2039:3:j_id2042" className="small-box">
+                    <div id="j_id2039:3:j_id2043" className="procedure-image">
+                      <img src={permiso} alt="Permiso por puntos." />
+                    </div>
+                    <div id="j_id2039:3:j_id2045" className="procedure-link">
+                      <a
+                        href="https://sede.dgt.gob.es/es/permisos-de-conducir/consulta-tus-puntos/index.shtml"
+                        target="_blank"
+                        title="Acceder a Permiso por puntos."
+                        className="link"
+                      >
+                        Permiso por puntos.
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <a
+                id="anguloDerecho"
+                className="right carousel-control"
+                href="https://sedeapl.dgt.gob.es:7443/WEB_NCIT_CONSULTA/solicitarCitaPaso1.faces#myCarouselInferior"
+                data-slide="next"
+              >
+                <svg
+                  className="svg-inline--fa fa-angle-right fa-w-8"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fa"
+                  data-icon="angle-right"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 256 512"
+                  data-fa-i2svg=""
+                >
+                  <path
+                    fill="currentColor"
+                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                  ></path>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
