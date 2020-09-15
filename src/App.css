@@ -1,25 +1,49 @@
 /*############            HEADER            #################*/
-/*Estilos propios*/
-.header1 {
-  white-space: nowrap;
-}
-.header2 {
-  width: 1.2em;
-}
-.mleft {
-  margin-right: 5px;
-}
-.header5 {
-  border-left: 1px solid rgb(187, 187, 187);
-  color: rgb(118, 118, 118);
-}
-/*Estilos viejos*/
-* {
+
+#contenedor {
+  width: 70%;
+  margin-left: 15%;
+  font-size: 68.75% !important;
   font-family: verdana, arial, geneva, helvetica, sans-serif !important;
 }
-* {
-  padding: 0px;
-  margin: 0px;
+
+.cabecera {
+  margin-bottom: 1em;
+}
+.superior {
+  height: 15px;
+  background: none !important;
+  background-color: #666666 !important;
+}
+.saltoContenido {
+  color: white;
+  font-size: 1.05em;
+}
+.central {
+  background-color: #ebebeb;
+}
+.cabLogo {
+  background: url("./assets/img/cab2.jpg") top left no-repeat;
+  height: 10em;
+}
+.alignR {
+  text-align: right;
+}
+.traductor {
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 2px;
+  cursor: pointer;
+}
+.img {
+  width: 1.2em;
+}
+
+.triengle {
+  border-left: 1px solid rgb(187, 187, 187);
+  color: rgb(118, 118, 118);
 }
 
 fieldset,
@@ -27,103 +51,25 @@ img {
   border: none;
 }
 
-body {
-  background: #ffffff;
-  font-size: 68.75% !important;
-  position: relative;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-}
-
-#contenedor {
-  text-align: left;
-  padding: 0em;
-  width: 70%;
-  align-content: center;
-  margin-left: 15%;
-}
-
-#cabecera .central {
-  background-color: #ebebeb;
-}
-.central-traducciones {
-  background-color: #ebebeb;
-  text-align: right;
-}
-.central-borde {
-  height: 15px;
-  background: none !important;
-  background-color: #666666 !important;
-}
-.cabLogo {
-  background: url("./assets/img/cab2.jpg") top left no-repeat;
-  height: 10em;
-}
-
-.saltoContenido {
-  padding-left: 0.5em;
-  color: #5c6d8d;
-}
-.saltoContenido {
-  color: white;
-  font-size: 1.05em;
-}
-
-.goog-te-gadget-simple {
-  background-color: #fff;
-  border-left: 1px solid #d5d5d5;
-  border-top: 1px solid #9b9b9b;
-  border-bottom: 1px solid #e8e8e8;
-  border-right: 1px solid #d5d5d5;
-  font-size: 10pt;
-  display: inline-block;
-  padding-top: 1px;
-  padding-bottom: 2px;
-  cursor: pointer;
-}
-
 /*############            CENTRAL            #################*/
-
-.separacion10em {
-  width: 100%;
-  height: 1em;
-  clear: both;
-}
-
-.separacion7em {
-  width: 100%;
-  height: 0.7em;
-  clear: both;
-}
-
 .separacion5em {
   width: 100%;
   height: 0.5em;
   clear: both;
 }
 
-.separacion1em {
-  width: 100%;
-  height: 1px;
-  clear: both;
-}
-
 .buscIntCab {
   float: left;
   width: 100%;
-  padding: 0.8em 0 0.8em 0;
-  background-color: #7b91b0;
+  background-color: #305880;
 }
 .buscIntCabTexto {
+  padding: 1em;
   margin-top: 0.2em;
   float: left;
   margin-bottom: 0.2em;
   margin-left: 0.45em;
   width: 81%;
-  height: auto;
   margin: auto 0 auto 1em;
   letter-spacing: 0.1em;
   max-width: 430px;
@@ -156,8 +102,7 @@ body {
   padding-left: 1em;
   margin-top: 1em;
   margin-left: 1em;
-  height: auto;
-  width: 98%;
+  width: 94%;
   border: solid 1px #eeeeee;
 }
 .cuadroBlanco98por div {
@@ -210,20 +155,15 @@ input[type="text"] {
   height: auto;
   width: 35%;
 }
-.buscIntCamposGral {
-  float: left;
-  width: 100%;
-  height: auto;
-  background-color: #ced7de;
-}
+
 .buscIntCamposBuscar {
-  padding: 0.5em 1em 0.2em 0;
-  width: 80%;
-  height: auto;
-  text-align: right;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   float: right;
+  background-color: #ced7de;
 }
 .botonSINimgen {
   border-top-width: 0px;
@@ -280,11 +220,12 @@ input[type="text"] {
 }
 
 .carousel {
-  margin-top: 2em;
-  margin-bottom: 20px;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  margin-bottom: 20px;
+  padding-top: 4em;
+  background-color: white;
 }
 .carousel-inner {
   width: 100%;
@@ -303,20 +244,8 @@ input[type="text"] {
 
 /*############            FOOTER            #################*/
 .pie {
-  height: 30px;
-  text-align: right;
-  margin: 0;
-  padding: 0;
-}
-.pie .central {
   background-color: #ebebeb;
-  height: 30px;
-  padding-top: 8px;
-  box-sizing: border-box;
-}
-.marginright10 {
-  margin-right: 10px;
-}
-.colorBlack {
-  color: black !important;
+  padding: 1em;
+  text-align: right;
+  color: black;
 }
