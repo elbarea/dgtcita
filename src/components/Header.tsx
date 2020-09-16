@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import dot from "../assets/img/g.png";
 
 function Header(props: any) {
